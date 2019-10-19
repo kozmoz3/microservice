@@ -11,7 +11,9 @@ import com.item.service.model.Producto;
 
 
 
-@FeignClient(name="servicio-productos",url="localhost:8001")
+//@FeignClient(name="servicio-productos",url="localhost:8001")
+/*con el archivo properties se obtiene*/
+@FeignClient(name="servicio-productos")
 public interface ProductoClienteRest {
 	
 	@GetMapping("/listar")
