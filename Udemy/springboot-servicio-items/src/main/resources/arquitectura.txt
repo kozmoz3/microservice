@@ -1,0 +1,5 @@
+Se levantaran dos instancias de producto y por medio de balance de carga se consumira
+ribbon
+
+Item -------> producto1
+     -------> producto2   
