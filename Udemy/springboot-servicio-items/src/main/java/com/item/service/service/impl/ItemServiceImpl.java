@@ -24,7 +24,8 @@ public class ItemServiceImpl implements ItemService {
 	@Override
 	public List<Item> findAll() {
 		
-		/*List<Producto> listProducto = Arrays
+		/* este es sin ribbon
+		 * List<Producto> listProducto = Arrays
 				.asList(clienteRest.getForObject("http://localhost:8001/listar", Producto[].class));
 	*/
 		List<Producto> listProducto = Arrays
