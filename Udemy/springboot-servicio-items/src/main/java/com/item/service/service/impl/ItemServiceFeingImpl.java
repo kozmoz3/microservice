@@ -11,7 +11,7 @@ import com.item.service.model.Item;
 import com.item.service.model.Producto;
 import com.item.service.service.ItemService;
 
-@Service
+@Service("itemServiceFeingImpl")
 public class ItemServiceFeingImpl  implements ItemService{
 
 	@Autowired
